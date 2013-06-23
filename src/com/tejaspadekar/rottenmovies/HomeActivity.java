@@ -1,10 +1,8 @@
-package com.group5.rottenmovies;
+package com.tejaspadekar.rottenmovies;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
-import org.json.JSONObject;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.group5.rottenmovies.R;
 import com.novoda.imageloader.core.ImageManager;
 import com.novoda.imageloader.core.LoaderSettings;
 import com.novoda.imageloader.core.LoaderSettings.SettingsBuilder;
@@ -25,7 +24,6 @@ import com.novoda.imageloader.core.cache.LruBitmapCache;
 
 public class HomeActivity extends Activity {
 
-	private JSONObject inTheaters;
 	public static ImageManager imageManager;
 
 	public static final ImageManager getImageManager() {
