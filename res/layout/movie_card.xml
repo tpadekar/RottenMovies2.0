@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  
+    android:layout_marginRight="1dp" >
+
+    <ImageView
+        android:id="@+id/moviePoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:minHeight="175dp"
+        android:src="@drawable/poster_default"/>
+
+    <RatingBar
+        android:id="@+id/movieRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:numStars="5" 
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/movie_title"
+        android:textSize="14sp" 
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+</LinearLayout>
