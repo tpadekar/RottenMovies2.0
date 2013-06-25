@@ -1,4 +1,4 @@
-package com.group5.rottenmovies;
+package com.tejaspadekar.rottenmovies;
 
 import java.util.HashMap;
 import java.util.Iterator;

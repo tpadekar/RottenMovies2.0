@@ -1,4 +1,4 @@
-package com.group5.rottenmovies.uielements;
+package com.tejaspadekar.rottenmovies.uielements;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,17 +10,15 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.group5.rottenmovies.HomeActivity;
-import com.group5.rottenmovies.R;
 import com.novoda.imageloader.core.model.ImageTag;
 import com.novoda.imageloader.core.model.ImageTagFactory;
+import com.tejaspadekar.rottenmovies.HomeActivity;
+import com.tejaspadekar.rottenmovies.R;
 
 public class MovieCardAdapter extends ArrayAdapter<JSONObject> {
 	private Context context;

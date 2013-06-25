@@ -1,11 +1,11 @@
-package com.group5.rottenmovies.uielements;
+package com.tejaspadekar.rottenmovies.uielements;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 
 
-public class MovieCardContents {
+public class MovieCardData {
 	
 	private String poster;
 	private String title;
@@ -14,7 +14,7 @@ public class MovieCardContents {
 	private int audienceRating;
 	private String description;
 	
-	public MovieCardContents(JSONObject movie) throws JSONException {
+	public MovieCardData(JSONObject movie) throws JSONException {
 		this.title = movie.getString("title");
 		this.poster = movie.getJSONObject("posters").getString("detailed");
 		this.movieID = movie.getString("id");
