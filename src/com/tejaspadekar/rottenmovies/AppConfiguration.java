@@ -2,7 +2,6 @@ package com.tejaspadekar.rottenmovies;
 
 import java.util.HashMap;
 
-import com.group5.rottenmovies.R;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 public class AppConfiguration {
