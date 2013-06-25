@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.group5.rottenmovies;
+package com.tejaspadekar.rottenmovies;
 
 import java.util.ArrayList;
 
@@ -10,13 +10,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import com.group5.rottenmovies.uielements.MovieCardAdapter;
+import com.tejaspadekar.rottenmovies.R;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.tejaspadekar.rottenmovies.uielements.MovieCardAdapter;
 
 /**
  * @author padekar
